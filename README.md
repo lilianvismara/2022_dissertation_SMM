@@ -10,4 +10,4 @@ O conjunto de dados está disponível em: (em breve).
 
 ---
 
-(C) 2021 Copyright. Lilian de Souza Vismara, Sabrina, Marcelo, Marina.
+(C) 2021 Copyright. Lilian de Souza Vismara, Sabrina, Marcelo Bortoli, Marina Celant de Prá. 
