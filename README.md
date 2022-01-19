@@ -6,7 +6,7 @@ Repositório do Trabalho de Conclusão de Curso de Especialização (TCCE) conte
 Dados da dissertação (referência). Disponível em: (em breve). 
 
 ## data
-O conjunto de dados está disponível em: (em breve). 
+O conjunto de dados está disponível em: (em breve???). 
 
 ---
 
