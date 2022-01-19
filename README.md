@@ -5,7 +5,7 @@ Repositório da dissertação de mestrado -- contendo script e relatório da an�
 
 Dados da dissertação (referência). Disponível em: (em breve). 
 
-## data
+## Dados 
 O conjunto de dados está disponível em: (em breve???). 
 
 ---
