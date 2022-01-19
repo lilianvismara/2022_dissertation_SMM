@@ -1,7 +1,7 @@
 # 2022_dissertation_SMM
 ## Relação entre as redes sociais e a geração de lixo
 
-Repositório do Trabalho de Conclusão de Curso de Especialização (TCCE) contendo script e imagem_teste.
+Repositório da dissertação de mestrado -- contendo script e relatório da análise de dados -- de autoria de Sabrina, orientação de Marcelo Bortoli e coorientação de Marina Celant de Prá. 
 
 Dados da dissertação (referência). Disponível em: (em breve). 
 
@@ -10,4 +10,4 @@ O conjunto de dados está disponível em: (em breve???).
 
 ---
 
-(C) 2021 Copyright. Lilian de Souza Vismara, Sabrina, Marcelo Bortoli, Marina Celant de Prá. 
+(C) 2021 Copyright. Lilian de Souza Vismara. 
