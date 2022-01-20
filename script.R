@@ -5,7 +5,7 @@ View(dados)
 
 # -------------------- ANÁLISE ESTATÍSTICA
 # REGRESSÃO LOGÍSTICA BINÁRIA 
-# Veja https://online.stat.psu.edu/stat504/lesson/6 
+# Sugestão de leitura: <https://online.stat.psu.edu/stat504/lesson/6>
 modelo = glm(y ~ ., data = dados, family = binomial("logit"))
 # em que: 
 # y = variável resposta (questão 1, sem relação com rede social)
@@ -13,6 +13,7 @@ modelo = glm(y ~ ., data = dados, family = binomial("logit"))
 summary(modelo) 
 
 # ANÁLISE DE DEVIÂNCIA E SELEÇÃO DE MODELO 
+# Sugestão de leitura: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2938757/>
 # Teste de efeito de alguma variável latente (explicativa ou preditora)
 modelo_0 = glm(y ~ 1, data = dados, family = binomial("logit"))
 anova(modelo_0, modelo, test = "LRT") # teste da razão da verossimilhança (Likelyhood Ratio Test)
@@ -27,20 +28,20 @@ exp(coef(modelo)) # cálculo dos coeficientes do modelo
 
 # O desvio mede a discrepância entre o modelo completo e o modelo com apenas o intercepto.
 # O modelo completo é o modelo que possui n parâmetros. Em particular, n=10.
-# O modelo completo maximiza a função de probabilidade de log.
-# Veja https://online.stat.psu.edu/stat504/lesson/6/6.3/6.3.4
+# O modelo completo maximiza a função de probabilidade logarítmica.
+# Sugestão de leitura: <https://online.stat.psu.edu/stat504/lesson/6/6.3/6.3.4>.
 
 # Nesta análise, utilizamos o conceito de variáveis latentes. 
 # Variáveis latentes não são diretamente observadas, mas são inferidas (através de um 
 # modelo matemático-estatístico) através da mensuração de variáveis observáveis.
 # Em geral, são variáveis que não podem ser acessadas diretamente, mas que possuem manifestações 
 # no mundo real (e.g., personalidade como extroversão e ou introversão).
-# Veja https://pt.wikipedia.org/wiki/Vari%C3%A1vel_latente
+# Sugestão de leitura: <https://pt.wikipedia.org/wiki/Vari%C3%A1vel_latente>.
 
 # Probabilidades para "chances" (odds)
 # Sucesso é um conceito estatístico que representa uma quantidade a qual estamos interessados em modelar,   
 # a depender do nosso objetivo. 
-# Veja https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2938757/
+# Sugestão de leitura: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2938757/>.
 
 # EXEMPLO: Digamos que a probabilidade de sucesso de determinado evento seja de 0,6 (60\%). 
 # Se a probabilidade de sucesso é 0,6 então a probabilidade de fracasso é 1-0,6=0,4. 
