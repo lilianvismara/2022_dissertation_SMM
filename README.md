@@ -14,4 +14,4 @@ Szumilas M. Explaining odds ratios. Journal of the Canadian Academy of Child and
 
 ---
 
-(C) 2021 Copyright. Lilian de Souza Vismara. 
+(C) 2021 Copyright -- Lilian de Souza Vismara. 
