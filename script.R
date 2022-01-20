@@ -8,7 +8,7 @@ View(dados)
 # Sugestão de leitura: <https://online.stat.psu.edu/stat504/lesson/6>
 modelo = glm(y ~ ., data = dados, family = binomial("logit"))
 # em que: 
-# y = variável resposta (questão 1, sem relação com rede social)
+# y = variável resposta (questão 1, sem relação com rede social), em que 1=Sim e 0=Não
 # x = variáveis explicativas ou preditoras (questões de 2 a 5, que relaciona o uso de rede social)
 summary(modelo) 
 
