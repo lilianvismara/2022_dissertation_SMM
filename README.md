@@ -1,5 +1,6 @@
 # 2022_dissertation_SMM
 ## Relação entre as redes sociais e a geração de lixo
+### Como as redes sociais podem afetar o gerenciamento de resíduos gerados em casa?
 
 Repositório da dissertação de mestrado -- contendo script e relatório da análise de dados -- de autoria de Sabrina, orientação de Marcelo Bortoli e coorientação de Marina Celant de Prá. 
 
