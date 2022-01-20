@@ -57,7 +57,7 @@ exp(coef(modelo)) # cálculo dos coeficientes do modelo
 # (2) seguir conteúdos na rede social influência, sendo que quem respondeu sim tem 3,029 vezes mais chances de 
 # responder sim na questão 1 (y) do que quem respondeu não (em seguir conteúdos em rede social).
 
-# Reveja os parâmetros que permitem esta conclusão.
+# Reveja os parâmetros que permitem esta conclusão:
 exp(coef(modelo))  
 
 # Tabela de frequência das variáveis preditoras significativas na análise
