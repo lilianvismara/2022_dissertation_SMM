@@ -15,3 +15,6 @@ SZUMILAS, Magdalena. Explaining odds ratios. Journal of the Canadian academy of 
 ---
 
 Copyright (C) Lilian de Souza Vismara 2022. 
+Copyright (C) **LdeSV** 2022.
+
+**L**ilian **de** **S**ouza **V**ismara 
