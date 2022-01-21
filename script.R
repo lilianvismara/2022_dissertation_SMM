@@ -8,8 +8,8 @@ View(dados)
 # Sugestão de leitura: <https://online.stat.psu.edu/stat504/lesson/6>
 modelo = glm(y ~ ., data = dados, family = binomial("logit"))
 # em que: 
-# y = variável resposta (questão 1, sem relação com rede social), em que 1=Sim e 0=Não
-# x = variáveis explicativas ou preditoras (questões de 2 a 5, que relaciona o uso de rede social)
+# y = variável resposta (questão 1, sem relação com rede social) em que 1=Sim e 0=Não
+# x = variáveis latentes explicativas ou preditoras (são as questões de gênero, escolaridade e as questões de 2 a 5 (que relaciona o uso de rede social)
 summary(modelo) 
 
 # ANÁLISE DE DEVIÂNCIA E SELEÇÃO DE MODELO 
@@ -23,7 +23,7 @@ exp(coef(modelo)) # cálculo dos coeficientes do modelo
 # -------------------- DEFINIÇÕES E CONSIDERAÇÕES
 # Por definição, o desvio é uma estatística de qualidade de ajuste para um modelo 
 # e é frequentemente usado para testes estatísticos de hipóteses. 
-# É uma generalização -- do uso da soma dos quadrados dos resíduos em ajustes pormínimos quadrados ordinários --
+# É uma generalização -- do uso da soma dos quadrados dos resíduos em ajustes por mínimos quadrados ordinários --
 # para casos em que o ajuste do modelo é obtido por máxima verossimilhança (likelyhood). 
 
 # O desvio mede a discrepância entre o modelo completo e o modelo com apenas o intercepto.
@@ -49,7 +49,7 @@ exp(coef(modelo)) # cálculo dos coeficientes do modelo
 # Logo, a chance de sucesso é 0,6/0,4=1,5. Isto significa que a chance de sucesso é de 1,5 para 1. 
 # Consequentemente, se a probabilidade de sucesso é 50% então a chance sucesso é 1 para 1.
 # Quanto maior a probabilidade de sucesso maior a chance de sucesso, 
-# e esta probabilidade assume valores no intervalo entre $0$ e $1$. 
+# e esta probabilidade assume valores no intervalo entre 0 e 1. 
 # Já a chance de sucesso assume valores entre 0 e +\infty.
 
 # -------------------- INTERPRETAÇÃO 
