@@ -1,3 +1,17 @@
+# ---------------------------
+##
+## Script name: REGRESSÃO LOGÍSTICA BINÁRIA
+##
+## Purpose of script: Qual a chance?
+##
+## Author: Lilian de Souza Vismara 
+##
+## Date Created: 2022-02
+##
+## Copyright (c) Lilian de Souza Vismara, 2022
+## Email: lilianvismara@utfpr.edu.br
+##
+## ---------------------------
 # -------------------- PREAMBULO
 library(readr) 
 dados <- read_csv("dados.csv")
