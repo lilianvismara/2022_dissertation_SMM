@@ -1,10 +1,10 @@
-# 2022_dissertation_SMM
+# 2022_pesquisa_SMM
 ## Relação entre as redes sociais e a geração de lixo
 ### Como as redes sociais podem afetar o gerenciamento de resíduos gerados em casa?
 
-Repositório da dissertação de mestrado -- contendo script e relatório da análise de dados -- de autoria de Sabrina, orientação de Marcelo Bortoli e coorientação de Marina Celant de Prá. 
+Repositório de análise de dados -- contendo script e relatório -- de dados provenientes de pesquisa (Marcelo Bortoli e Marina Celant de Prá). 
 
-Dados da dissertação (referência). Disponível em: (em breve). 
+Dados da produção. Disponível em: (em breve). 
 
 ## Trabalhos relacionados
 SIMEONE, Mariarosaria; SCARPATO, Debora. Sustainable consumption: How does social media affect food choices?. Journal of Cleaner Production, v. 277, p. 124036, 2020. https://doi.org/10.1016/j.jclepro.2020.124036. 
